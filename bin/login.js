@@ -50,7 +50,7 @@ function signinWithCredentials(base, email, password) {
           return resolve();
         }).catch(function () {
           _helpers2.default.UI.display('Login error, check your credentials. If you forgot your password, visit ' + base + ' to reset it.');
-          run();
+          // run();
         });
       });
     }
